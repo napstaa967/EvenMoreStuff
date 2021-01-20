@@ -1,0 +1,7 @@
+{
+	"format_version": [1, 1, 0],
+	"inh_ems_mb:gunpowder_block": {
+		"textures": "inh_ems_mb_gunpowder_block",
+		"sound": "gravel"
+	}
+}

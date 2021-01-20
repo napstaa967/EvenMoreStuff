@@ -1,0 +1,52 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+    "identifier": "inh_ems_mb:recipe_gunpowder_block"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "ingredients": [
+      {
+        "item": "minecraft:gunpowder",
+        "count": 1
+      },
+      {
+        "item": "minecraft:gunpowder",
+        "count": 1
+      },
+      {
+        "item": "minecraft:gunpowder",
+        "count": 1
+      },
+      {
+        "item": "minecraft:gunpowder",
+        "count": 1
+      },
+      {
+        "item": "minecraft:gunpowder",
+        "count": 1
+      },
+      {
+        "item": "minecraft:gunpowder",
+        "count": 1
+      },
+      {
+        "item": "minecraft:gunpowder",
+        "count": 1
+      },
+      {
+        "item": "minecraft:gunpowder",
+        "count": 1
+      },
+      {
+        "item": "minecraft:gunpowder",
+        "count": 1
+      }
+    ],
+    "result": {
+      "item": "inh_ems_mb:gunpowder_block"
+    }
+  }
+}
