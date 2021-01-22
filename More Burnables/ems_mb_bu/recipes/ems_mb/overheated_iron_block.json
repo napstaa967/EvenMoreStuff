@@ -1,0 +1,16 @@
+{
+	"format_version": "1.12",
+    "minecraft:recipe_furnace": {
+		"description": {
+			"identifier": "inh_ems_mb:recipe_overheated_iron_block"
+		},
+
+        "tags": [
+            "furnace"
+        ],
+        "output": "inh_ems_mb:overheated_iron_block",
+        "input": {
+            "item": "inh_ems_mb:hot_iron_block"
+        }
+	}
+}

@@ -1,0 +1,25 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "inh_ems_mb:hot_iron_block",
+			"category": "nature"
+		},
+		"components": {
+			"minecraft:block_light_absorption": 0,
+			"minecraft:destroy_time": 10,
+			"minecraft:on_step_on": {
+				"event": "inh_ems_mb_damage_player"
+			}
+		},
+		"events": {
+			"inh_ems_mb_damage_player": {
+				"damage": {
+					"amount": 1,
+					"target": "player",
+					"type": "fire"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,17 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "inh_ems_mb:cardboard",
+			"category": "nature"
+		},
+		"components": {
+			"minecraft:block_light_absorption": 0,
+			"minecraft:destroy_time": 5,
+			"minecraft:flammable": {
+				"flame_odds": 75,
+				"burn_odds": 20
+			}
+		}
+	}
+}
