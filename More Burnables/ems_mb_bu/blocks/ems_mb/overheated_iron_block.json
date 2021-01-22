@@ -8,16 +8,12 @@
 		"components": {
 			"minecraft:block_light_absorption": 0,
 			"minecraft:destroy_time": 10,
+			"minecraft:on_step_on": {
+				"event": "inh_ems_mb_damage_player"
+			},
 			"minecraft:on_interact": {
 				"condition": "(query.get_equipped_item_name('main_hand') == '')",
 				"event": "inh_ems_mb_blow_up"
-			},
-			"minecraft:ticking": {
-				"looping": false,
-				"range": 500,
-				"on_tick": {
-					"event": "inh_ems_mb_cool"
-				}
 			}
 		},
 		"events": {
@@ -33,9 +29,11 @@
 					"target": "self"
 				}
 			},
-			"inh_ems_mb_cool": {
-				"set_block": {
-					"block_type": "inh_ems_mb:hot_iron_block"
+			"inh_ems_mb_damage_player": {
+				"damage": {
+					"amount": 3,
+					"target": "other",
+					"type": "fire"
 				}
 			}
 		}

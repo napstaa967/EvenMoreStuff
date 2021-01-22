@@ -10,13 +10,6 @@
 			"minecraft:destroy_time": 10,
 			"minecraft:on_step_on": {
 				"event": "inh_ems_mb_damage_player"
-			},
-			"minecraft:ticking": {
-				"looping": false,
-				"on_tick": {
-					"event": "inh_ems_mb_cool"
-				},
-				"range": 500
 			}
 		},
 		"events": {
@@ -25,11 +18,6 @@
 					"amount": 1,
 					"target": "other",
 					"type": "fire"
-				}
-			},
-			"inh_ems_mb_cool": {
-				"set_block": {
-					"block_type": "minecraft:iron_block"
 				}
 			}
 		}
