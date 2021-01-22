@@ -1,0 +1,31 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "inh_ems_mb:overheated_iron_block",
+			"category": "nature"
+		},
+		"components": {
+			"minecraft:block_light_absorption": 0,
+			"minecraft:destroy_time": 10,
+			"minecraft:on_interact": {
+				"condition": "(query.get_equipped_item_name('main_hand') == '')",
+				"event": "inh_ems_mb_blow_up"
+			}
+		},
+		"events": {
+			"inh_ems_mb_blow_up": {
+				"set_block": {
+					"block_type": "minecraft:air"
+				},
+				"run_command": {
+					"command": [
+						"playsound random.fuse @a",
+						"summon inh:blow_up_iron ~~~"
+					],
+					"target": "self"
+				}
+			}
+		}
+	}
+}

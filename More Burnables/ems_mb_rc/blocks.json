@@ -11,5 +11,9 @@
 	"inh_ems_mb:hot_iron_block": {
 		"textures": "inh_ems_mb_hot_iron_block",
 		"sound": "metal"
+	},
+	"inh_ems_mb:overheated_iron_block": {
+		"textures": "inh_ems_mb_overheated_iron_block",
+		"sound": "metal"
 	}
 }

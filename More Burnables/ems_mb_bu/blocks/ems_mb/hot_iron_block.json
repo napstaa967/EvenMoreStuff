@@ -16,7 +16,7 @@
 			"inh_ems_mb_damage_player": {
 				"damage": {
 					"amount": 1,
-					"target": "player",
+					"target": "other",
 					"type": "fire"
 				}
 			}
