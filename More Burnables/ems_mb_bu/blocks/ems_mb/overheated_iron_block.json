@@ -11,6 +11,13 @@
 			"minecraft:on_interact": {
 				"condition": "(query.get_equipped_item_name('main_hand') == '')",
 				"event": "inh_ems_mb_blow_up"
+			},
+			"minecraft:ticking": {
+				"looping": false,
+				"range": 500,
+				"on_tick": {
+					"event": "inh_ems_mb_cool"
+				}
 			}
 		},
 		"events": {
@@ -24,6 +31,11 @@
 						"summon inh:blow_up_iron ~~~"
 					],
 					"target": "self"
+				}
+			},
+			"inh_ems_mb_cool": {
+				"set_block": {
+					"block_type": "inh_ems_mb:hot_iron_block"
 				}
 			}
 		}

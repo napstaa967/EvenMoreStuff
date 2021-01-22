@@ -1,3 +1,4 @@
 tile.inh_ems_mb:gunpowder_block.name=Gunpowder Block
 tile.inh_ems_mb:cardboard.name=Cardboard
 tile.inh_ems_mb:hot_iron_block.name=Hot Iron
+tile.inh_ems_mb:overheated_iron_block.name=Overheated Iron
