@@ -23,8 +23,7 @@
 				},
 				"run_command": {
 					"command": [
-						"playsound random.fuse @a",
-						"summon inh:blow_up_iron ~~~"
+						"summon inh_ems_mb:blow_up_iron ~~~"
 					],
 					"target": "self"
 				}

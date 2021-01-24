@@ -11,7 +11,8 @@
 			"minecraft:flammable": {
 				"flame_odds": 100,
 				"burn_odds": 1
-			}
+			},
+			"tag:wood": {}
 		}
 	}
 }

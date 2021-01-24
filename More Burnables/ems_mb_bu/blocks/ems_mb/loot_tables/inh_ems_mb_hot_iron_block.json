@@ -1,0 +1,15 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"name": "inh_ems_mb:hot_iron_block",
+			"conditions": [{
+				"condition": "minecraft:match_tool",
+				"predicate": {
+					"item": "minecraft:iron_pickaxe"
+				}
+			}],
+			"type": "item"
+		}]
+	}]
+}

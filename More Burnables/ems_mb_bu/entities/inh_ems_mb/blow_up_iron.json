@@ -2,7 +2,7 @@
 	"format_version": "1.8.0",
 	"minecraft:entity": {
 		"description": {
-			"identifier": "inh:blow_up_iron",
+			"identifier": "inh_ems_mb:blow_up_iron",
 			"is_spawnable": false,
 			"is_summonable": true,
 			"is_experimental": false

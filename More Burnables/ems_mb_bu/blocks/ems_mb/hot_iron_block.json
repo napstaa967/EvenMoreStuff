@@ -6,14 +6,25 @@
 			"category": "nature"
 		},
 		"components": {
+			"minecraft:loot": "blocks/ems_mb/loot_tables/inh_ems_mb_hot_iron_block.json",
 			"minecraft:block_light_absorption": 0,
-			"minecraft:destroy_time": 10,
+			"minecraft:destroy_time": 2,
 			"minecraft:on_step_on": {
 				"event": "inh_ems_mb_damage_player"
+			},
+			"minecraft:on_interact": {
+				"event": "inh_ems_mb_damage_player_on_interaction"
 			}
 		},
 		"events": {
 			"inh_ems_mb_damage_player": {
+				"damage": {
+					"amount": 3,
+					"target": "other",
+					"type": "fire"
+				}
+			},
+			"inh_ems_mb_damage_player_on_interaction": {
 				"damage": {
 					"amount": 1,
 					"target": "other",
